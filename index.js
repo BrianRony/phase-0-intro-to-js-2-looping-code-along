@@ -6,7 +6,16 @@ function writeCards(names,event = 'surprise'){
     }
     return (message);
 }
+// const number = ['1','2','3','4','5','6','7','8','9','10'];
 
+// function countDown (){
+//     let i = 0;
+//     while (i <= number.length){
+//         console.log (i,[i]);
+//         i++
+//     }
+//     return number;
+// }
 function countDown(number) {
     while (number > 0) {
         console.log(number);
